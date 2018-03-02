@@ -1,0 +1,161 @@
+<app-nav></app-nav>
+
+<!-- REGISTER NEW USER -->
+<h1>Register a new user:</h1>
+<form (ngSubmit)="newUser(user)">
+  <input type="text" name="username" [(ngModel)]="user.username" placeholder="Username">
+  <input type="password" name="password" [(ngModel)]="user.password" placeholder="Password">
+  <input type="text" name="firstname" [(ngModel)]="user.user_first_name" placeholder="First Name">
+  <input type="text" name="lastname" [(ngModel)]="user.user_last_name" placeholder="Last Name">
+  <input type="text" name="email" [(ngModel)]="user.user_email" placeholder="Email">
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br>
+<br>
+<br>
+
+
+
+
+<!-- UPDATE REIMBURSEMENT REQUEST -->
+<h1>Update a Request:</h1>
+<form (ngSubmit)="updateReimb()">
+  <input type="number" name="reimb-id" [(ngModel)]="reimbursement.reimbId" placeholder="Reimbursement ID">
+  <select name="status" [(ngModel)]="reimbursement.statusId">
+    <option *ngFor="let status of statuses" [ngValue]="status.id">{{status.name}}</option>
+  </select>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br>
+<br>
+<br>
+
+<!-- REIMBURSEMENTS BY STATUS -->
+<h1>Reimbursements by status: {{status}}</h1>
+<form (ngSubmit)="getByStatus(status)">
+  <input type="number" name="status" [(ngModel)]="status" placeholder="Status">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<button class="btn btn-primary" (click)="statusShow = !statusShow">{{statusShow ? 'Hide' : 'Show'}}</button>
+<div *ngIf="statusShow">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Reimbursement ID</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date Submitted</th>
+        <th scope="col">Date Resolved</th>
+        <th scope="col">Description</th>
+        <th scope="col">Author Id</th>
+        <th scope="col">Resolver Id</th>
+        <th scope="col">Status</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reimb of statusList">
+        <th scope="row">{{reimb.reimbId}}</th>
+        <td>{{reimb.amount | currency:'USD':'symbol':'1.2-2'}}</td>
+        <td>{{reimb.submitted | date:'fullDate'}}</td>
+        <td>{{reimb.resolved | date:'fullDate'}}</td>
+        <td>{{reimb.description}}</td>
+        <td>{{reimb.authorId}}</td>
+        <td>{{reimb.resolverId}}</td>
+        <td>{{reimb.statusId}}</td>
+        <td>{{reimb.typeId}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- REIMBURSEMENTS BY USER -->
+<h1>History by User: {{userId}}</h1>
+<form (ngSubmit)="getUserHistory(userId)">
+  <input type="number" name="user-id" [(ngModel)]="userId" placeholder="UserId">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<button class="btn btn-primary" (click)="userHistoryShow = !userHistoryShow">{{userHistoryShow ? 'Hide' : 'Show'}}</button>
+<div *ngIf="userHistoryShow">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Reimbursement ID</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date Submitted</th>
+        <th scope="col">Date Resolved</th>
+        <th scope="col">Description</th>
+        <th scope="col">Author Id</th>
+        <th scope="col">Resolver Id</th>
+        <th scope="col">Status</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reimb of userHistoryList">
+        <th scope="row">{{reimb.reimbId}}</th>
+        <td>{{reimb.amount | currency:'USD':'symbol':'1.2-2'}}</td>
+        <td>{{reimb.submitted | date:'fullDate'}}</td>
+        <td>{{reimb.resolved | date:'fullDate'}}</td>
+        <td>{{reimb.description}}</td>
+        <td>{{reimb.authorId}}</td>
+        <td>{{reimb.resolverId}}</td>
+        <td>{{reimb.statusId}}</td>
+        <td>{{reimb.typeId}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<br>
+<br>
+
+<!-- ALL REIMBURSEMENTS -->
+<h1>All Reimbursements:</h1>
+<button class="btn btn-primary" (click)="allHistoryShow = !allHistoryShow">{{allHistoryShow ? 'Hide' : 'Show'}}</button>
+<div *ngIf="allHistoryShow">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Reimbursement ID</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date Submitted</th>
+        <th scope="col">Date Resolved</th>
+        <th scope="col">Description</th>
+        <th scope="col">Author Id</th>
+        <th scope="col">Resolver Id</th>
+        <th scope="col">Status</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reimb of allHistoryList">
+        <th scope="row">{{reimb.reimbId}}</th>
+        <td>{{reimb.amount | currency:'USD':'symbol':'1.2-2'}}</td>
+        <td>{{reimb.submitted | date:'fullDate'}}</td>
+        <td>{{reimb.resolved | date:'fullDate'}}</td>
+        <td>{{reimb.description}}</td>
+        <td>{{reimb.authorId}}</td>
+        <td>{{reimb.resolverId}}</td>
+        <td>{{reimb.statusId}}</td>
+        <td>{{reimb.typeId}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
