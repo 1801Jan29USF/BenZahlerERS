@@ -1,9 +1,9 @@
 <app-nav></app-nav>
 
 <!-- WELCOME TO REVATURE REIMBURSEMENT PORTAL -->
+<h2 id="rectangle">Welcome to the Revature Reimbursement Portal: {{user.user_first_name}} {{user.user_last_name}}</h2>
 
-
-
+<!-- SUBMIT A NEW REIMBURSEMENT -->
 <h1>Submit a new request:</h1>
 <form (ngSubmit)="newReimb()">
   <input type="number" name="amount" [(ngModel)]="reimbursement.amount" placeholder="Amount">
@@ -19,8 +19,11 @@
 <br>
 <br>
 
+<!-- Button to toggle between pending and show all -->
 <button class="btn btn-primary" (click)="show = !show">{{show ? 'Show All History' : 'Show Pending'}}</button>
 <div *ngIf="show">
+
+  <!-- SHOW PENDING REQUESTS WHEN SHOW = TRUE -->
   <h1>Pending Requests:</h1>
   <table class="table table-striped">
     <thead>
@@ -40,12 +43,13 @@
         <td>{{reimb.submitted | date:'fullDate'}}</td>
         <td>{{reimb.description}}</td>
         <td>{{reimb.statusId | statusPipe}}</td>
-        <td>{{reimb.typeId}}</td>
+        <td>{{reimb.typeId | typePipe}}</td>
       </tr>
     </tbody>
   </table>
 </div>
 
+<!-- SHOW ALL USER REQUESTS WHEN SHOW = FALSE -->
 <div *ngIf="!show">
   <h1>All of Your Requests:</h1>
   <table class="table table-striped">
@@ -70,7 +74,7 @@
         <td>{{reimb.description}}</td>
         <td>{{reimb.resolverId}}</td>
         <td>{{reimb.statusId | statusPipe}}</td>
-        <td>{{reimb.typeId}}</td>
+        <td>{{reimb.typeId | typePipe}}</td>
       </tr>
     </tbody>
   </table>

@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class StatusPipe implements PipeTransform {
 
-  transform(value: number, tmp: any): String {
+  transform(value: number): String {
     if (value === 0) {
       return 'Pending';
     } else if (value === 1) {

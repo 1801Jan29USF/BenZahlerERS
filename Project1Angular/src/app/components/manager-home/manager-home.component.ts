@@ -22,8 +22,8 @@ export class ManagerHomeComponent implements OnInit {
   userHistoryList: Array<Reimbursement>;
   allHistoryList: Array<Reimbursement>;
   statuses = [
-    {id: 1, name: 'Approved'},
-    {id: 2, name: 'Denied'},
+    {id: 1, name: 'Approve'},
+    {id: 2, name: 'Deny'},
   ];
   reimbursement = {
     reimbId: '',

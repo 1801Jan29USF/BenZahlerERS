@@ -1,0 +1,312 @@
+2018-02-22 23:41:56 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-22 23:41:56 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-22 23:41:57 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-22 23:41:57 WARN  UserDAOjdbc:44 - Failed to insert new user.
+2018-02-22 23:41:57 TRACE UserDAOjdbc:51 - Method called to check if user exists.
+2018-02-22 23:41:57 TRACE UserDAOjdbc:52 - Attempting to connect to database.
+2018-02-22 23:41:58 TRACE UserDAOjdbc:54 - Connection successful.
+2018-02-22 23:41:58 WARN  UserDAOjdbc:66 - SQL error. Method 'exists' returns false by default.
+2018-02-22 23:41:58 TRACE UserDAOjdbc:73 - Method called to check if user exists.
+2018-02-22 23:41:58 TRACE UserDAOjdbc:74 - Attempting to connect to database.
+2018-02-22 23:41:58 TRACE UserDAOjdbc:76 - Connection successful.
+2018-02-22 23:41:58 WARN  UserDAOjdbc:88 - SQL error. Method 'exists' returns false by default.
+2018-02-22 23:41:58 TRACE UserDAOjdbc:95 - Method called to get User with username b
+2018-02-22 23:41:58 TRACE UserDAOjdbc:96 - Attempting to connect to database.
+2018-02-22 23:41:59 TRACE UserDAOjdbc:98 - Connection successful.
+2018-02-22 23:41:59 WARN  UserDAOjdbc:109 - Error. Failed to retrieve user.
+2018-02-22 23:41:59 TRACE UserDAOjdbc:122 - Method called to create new reimbursement.
+2018-02-22 23:41:59 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:125 - Connection successful.
+2018-02-22 23:42:00 WARN  UserDAOjdbc:147 - Failed to insert new reimbursement.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:122 - Method called to create new reimbursement.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:125 - Connection successful.
+2018-02-22 23:42:00 WARN  UserDAOjdbc:147 - Failed to insert new reimbursement.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:122 - Method called to create new reimbursement.
+2018-02-22 23:42:00 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-22 23:42:01 TRACE UserDAOjdbc:125 - Connection successful.
+2018-02-22 23:42:01 WARN  UserDAOjdbc:147 - Failed to insert new reimbursement.
+2018-02-22 23:42:01 TRACE UserDAOjdbc:160 - Method called to update reimbursement.
+2018-02-22 23:42:01 TRACE UserDAOjdbc:161 - Attempting to connect to database.
+2018-02-22 23:42:01 TRACE UserDAOjdbc:163 - Connection successful.
+2018-02-22 23:42:01 WARN  UserDAOjdbc:174 - SQL error. Failed to update reimbursement status.
+2018-02-22 23:49:20 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-22 23:49:20 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-22 23:49:21 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-22 23:49:21 WARN  UserDAOjdbc:45 - Failed to insert new user.
+2018-02-22 23:51:31 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-22 23:51:31 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-22 23:51:32 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-22 23:51:32 TRACE UserDAOjdbc:26 - b
+2018-02-22 23:51:32 TRACE UserDAOjdbc:27 - e
+2018-02-22 23:51:32 TRACE UserDAOjdbc:28 - n
+2018-02-22 23:51:32 TRACE UserDAOjdbc:29 - j
+2018-02-22 23:51:32 TRACE UserDAOjdbc:30 - a
+2018-02-22 23:51:32 TRACE UserDAOjdbc:31 - 1
+2018-02-22 23:51:32 WARN  UserDAOjdbc:51 - Failed to insert new user.
+2018-02-22 23:59:34 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-22 23:59:34 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-22 23:59:35 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-22 23:59:35 TRACE UserDAOjdbc:26 - b
+2018-02-22 23:59:35 TRACE UserDAOjdbc:27 - e
+2018-02-22 23:59:35 TRACE UserDAOjdbc:28 - n
+2018-02-22 23:59:35 TRACE UserDAOjdbc:29 - j
+2018-02-22 23:59:35 TRACE UserDAOjdbc:30 - a
+2018-02-22 23:59:35 TRACE UserDAOjdbc:31 - 1
+2018-02-22 23:59:35 WARN  UserDAOjdbc:49 - Failed to insert new user.
+2018-02-23 00:01:22 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 00:01:22 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 00:01:23 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 00:01:23 WARN  UserDAOjdbc:71 - SQL error. Method 'exists' returns false by default.
+2018-02-23 00:05:35 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 00:05:35 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 00:05:36 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 00:05:37 WARN  UserDAOjdbc:71 - SQL error. Returning false
+2018-02-23 00:06:29 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 00:06:29 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 00:06:30 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 00:06:30 TRACE UserDAOjdbc:62 - Prepared statement worked
+2018-02-23 00:06:31 WARN  UserDAOjdbc:73 - SQL error. Returning false
+2018-02-23 00:07:39 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 00:07:39 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 00:07:41 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 00:07:41 TRACE UserDAOjdbc:62 - Prepared statement worked
+2018-02-23 00:07:41 WARN  UserDAOjdbc:74 - SQL error. Returning false
+2018-02-23 00:08:27 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 00:08:27 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 00:08:28 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 00:08:28 TRACE UserDAOjdbc:62 - Prepared statement worked
+2018-02-23 00:08:28 WARN  UserDAOjdbc:74 - SQL error. Returning false
+2018-02-23 08:55:14 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 08:55:14 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 08:55:15 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 08:55:15 TRACE UserDAOjdbc:62 - Prepared statement worked
+2018-02-23 08:55:15 TRACE UserDAOjdbc:64 - After execution.
+2018-02-23 08:55:45 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-23 08:55:45 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-23 08:55:46 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-23 08:55:46 TRACE UserDAOjdbc:26 - b
+2018-02-23 08:55:46 TRACE UserDAOjdbc:27 - e
+2018-02-23 08:55:46 TRACE UserDAOjdbc:28 - n
+2018-02-23 08:55:46 TRACE UserDAOjdbc:29 - j
+2018-02-23 08:55:46 TRACE UserDAOjdbc:30 - a
+2018-02-23 08:55:46 TRACE UserDAOjdbc:31 - 1
+2018-02-23 08:55:46 TRACE UserDAOjdbc:39 - Statement Prepared
+2018-02-23 08:55:49 WARN  UserDAOjdbc:49 - Failed to insert new user.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:56 - Method called to check if user exists.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:57 - Attempting to connect to database.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:59 - Connection successful.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:62 - Prepared statement worked
+2018-02-23 08:55:49 TRACE UserDAOjdbc:64 - After execution.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:81 - Method called to check if user exists.
+2018-02-23 08:55:49 TRACE UserDAOjdbc:82 - Attempting to connect to database.
+2018-02-23 08:55:50 TRACE UserDAOjdbc:84 - Connection successful.
+2018-02-23 08:55:50 TRACE UserDAOjdbc:103 - Method called to get User with username b
+2018-02-23 08:55:50 TRACE UserDAOjdbc:104 - Attempting to connect to database.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:106 - Connection successful.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:130 - Method called to create new reimbursement.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:131 - Attempting to connect to the database.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:133 - Connection successful.
+2018-02-23 08:55:51 WARN  UserDAOjdbc:155 - Failed to insert new reimbursement.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:130 - Method called to create new reimbursement.
+2018-02-23 08:55:51 TRACE UserDAOjdbc:131 - Attempting to connect to the database.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:133 - Connection successful.
+2018-02-23 08:55:52 WARN  UserDAOjdbc:155 - Failed to insert new reimbursement.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:130 - Method called to create new reimbursement.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:131 - Attempting to connect to the database.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:133 - Connection successful.
+2018-02-23 08:55:52 WARN  UserDAOjdbc:155 - Failed to insert new reimbursement.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:168 - Method called to update reimbursement.
+2018-02-23 08:55:52 TRACE UserDAOjdbc:169 - Attempting to connect to database.
+2018-02-23 08:55:53 TRACE UserDAOjdbc:171 - Connection successful.
+2018-02-23 08:55:53 WARN  UserDAOjdbc:182 - SQL error. Failed to update reimbursement status.
+2018-02-23 09:01:32 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-23 09:01:32 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-23 09:01:33 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-23 09:01:33 TRACE UserDAOjdbc:33 - Statement Prepared
+2018-02-23 09:01:34 WARN  UserDAOjdbc:44 - Failed to insert new user.
+2018-02-23 09:02:25 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-23 09:02:25 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-23 09:02:26 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-23 09:02:26 TRACE UserDAOjdbc:33 - Statement Prepared
+2018-02-23 09:02:26 DEBUG UserDAOjdbc:36 - Query inserted 1 row(s) into the db.
+2018-02-25 12:45:58 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 12:45:58 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 12:45:58 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 12:45:59 WARN  UserDAOjdbc:148 - Failed to insert new reimbursement.
+2018-02-25 12:45:59 TRACE UserDAOjdbc:161 - Method called to update reimbursement.
+2018-02-25 12:45:59 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-25 12:45:59 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-25 12:45:59 WARN  UserDAOjdbc:175 - SQL error. Failed to update reimbursement status.
+2018-02-25 12:46:48 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 12:46:48 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 12:46:49 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 12:46:49 WARN  UserDAOjdbc:149 - Failed to insert new reimbursement.
+2018-02-25 12:46:49 TRACE UserDAOjdbc:162 - Method called to update reimbursement.
+2018-02-25 12:46:49 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-25 12:46:49 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-25 12:46:50 WARN  UserDAOjdbc:176 - SQL error. Failed to update reimbursement status.
+2018-02-25 13:03:57 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 13:03:57 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 13:03:58 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 13:03:58 WARN  UserDAOjdbc:150 - Failed to insert new reimbursement.
+2018-02-25 13:03:58 TRACE UserDAOjdbc:163 - Method called to update reimbursement.
+2018-02-25 13:03:58 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-25 13:03:58 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-25 13:03:59 WARN  UserDAOjdbc:177 - SQL error. Failed to update reimbursement status.
+2018-02-25 13:05:02 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 13:05:02 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 13:05:03 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 13:05:03 WARN  UserDAOjdbc:148 - Failed to insert new reimbursement.
+2018-02-25 13:05:03 TRACE UserDAOjdbc:161 - Method called to update reimbursement.
+2018-02-25 13:05:03 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-25 13:05:04 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-25 13:05:04 WARN  UserDAOjdbc:176 - SQL error. Failed to update reimbursement status.
+2018-02-25 13:09:06 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 13:09:06 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 13:09:06 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 13:09:06 TRACE UserDAOjdbc:136 - PreparedStatement Successful
+2018-02-25 13:09:07 DEBUG UserDAOjdbc:140 - Query inserted 1 row(s) into the db.
+2018-02-25 13:09:07 TRACE UserDAOjdbc:161 - Method called to update reimbursement.
+2018-02-25 13:09:07 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-25 13:09:07 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-25 13:09:07 WARN  UserDAOjdbc:176 - SQL error. Failed to update reimbursement status.
+2018-02-25 13:23:07 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 13:23:07 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 13:23:08 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 13:23:09 DEBUG UserDAOjdbc:138 - Query inserted 1 row(s) into the db.
+2018-02-25 13:23:09 TRACE UserDAOjdbc:158 - Method called to update reimbursement.
+2018-02-25 13:23:09 TRACE UserDAOjdbc:159 - Attempting to connect to database.
+2018-02-25 13:23:09 TRACE UserDAOjdbc:161 - Connection successful.
+2018-02-25 13:23:09 WARN  UserDAOjdbc:176 - SQL error. Failed to update reimbursement status.
+2018-02-25 13:23:45 TRACE UserDAOjdbc:123 - Method called to create new reimbursement.
+2018-02-25 13:23:45 TRACE UserDAOjdbc:124 - Attempting to connect to the database.
+2018-02-25 13:23:46 TRACE UserDAOjdbc:126 - Connection successful.
+2018-02-25 13:23:47 DEBUG UserDAOjdbc:138 - Query inserted 1 row(s) into the db.
+2018-02-25 13:23:47 TRACE UserDAOjdbc:158 - Method called to update reimbursement.
+2018-02-25 13:23:47 TRACE UserDAOjdbc:159 - Attempting to connect to database.
+2018-02-25 13:23:47 TRACE UserDAOjdbc:161 - Connection successful.
+2018-02-25 13:23:47 TRACE UserDAOjdbc:172 - Updated 0 row(s).
+2018-02-25 13:25:39 TRACE UserDAOjdbc:158 - Method called to update reimbursement.
+2018-02-25 13:25:39 TRACE UserDAOjdbc:159 - Attempting to connect to database.
+2018-02-25 13:25:40 TRACE UserDAOjdbc:161 - Connection successful.
+2018-02-25 13:25:40 TRACE UserDAOjdbc:172 - Updated 1 row(s).
+2018-02-25 13:29:25 TRACE UserDAOjdbc:96 - Method called to get User with username a
+2018-02-25 13:29:25 TRACE UserDAOjdbc:97 - Attempting to connect to database.
+2018-02-25 13:29:26 TRACE UserDAOjdbc:99 - Connection successful.
+2018-02-25 13:55:35 TRACE UserDAOjdbc:145 - Method called to create new reimbursement.
+2018-02-25 13:55:35 TRACE UserDAOjdbc:146 - Attempting to connect to the database.
+2018-02-25 13:55:36 TRACE UserDAOjdbc:148 - Connection successful.
+2018-02-25 13:55:37 DEBUG UserDAOjdbc:160 - Query inserted 1 row(s) into the db.
+2018-02-25 13:55:37 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 13:55:37 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 13:55:38 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 13:55:39 WARN  UserDAOjdbc:137 - Failed to retrieve user history.
+2018-02-25 13:56:13 TRACE UserDAOjdbc:145 - Method called to create new reimbursement.
+2018-02-25 13:56:13 TRACE UserDAOjdbc:146 - Attempting to connect to the database.
+2018-02-25 13:56:15 TRACE UserDAOjdbc:148 - Connection successful.
+2018-02-25 13:56:16 DEBUG UserDAOjdbc:160 - Query inserted 1 row(s) into the db.
+2018-02-25 13:56:16 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 13:56:16 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 13:56:17 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 13:56:17 WARN  UserDAOjdbc:130 - No reimbursements found with id 1
+2018-02-25 13:57:42 TRACE UserDAOjdbc:145 - Method called to create new reimbursement.
+2018-02-25 13:57:42 TRACE UserDAOjdbc:146 - Attempting to connect to the database.
+2018-02-25 13:57:43 TRACE UserDAOjdbc:148 - Connection successful.
+2018-02-25 13:57:44 DEBUG UserDAOjdbc:160 - Query inserted 1 row(s) into the db.
+2018-02-25 13:57:44 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 13:57:44 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 13:57:46 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 13:58:13 TRACE UserDAOjdbc:119 - Method called to get history of user 2
+2018-02-25 13:58:13 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 13:58:15 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 13:59:49 TRACE UserDAOjdbc:119 - Method called to get history of user 2
+2018-02-25 13:59:49 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 13:59:52 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 14:00:05 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 14:00:05 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 14:00:06 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 14:04:09 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 14:04:09 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 14:04:11 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 14:15:24 TRACE UserDAOjdbc:119 - Method called to get history of user 1
+2018-02-25 14:15:24 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 14:15:26 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 14:16:12 TRACE UserDAOjdbc:119 - Method called to get history of user 2
+2018-02-25 14:16:12 TRACE UserDAOjdbc:120 - Attempting to connect to the database.
+2018-02-25 14:16:15 TRACE UserDAOjdbc:122 - Connection Successful.
+2018-02-25 14:31:10 TRACE UserDAOjdbc:122 - Method called to get history of user 2
+2018-02-25 14:31:10 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-25 14:31:12 TRACE UserDAOjdbc:125 - Connection Successful.
+2018-02-25 14:31:44 TRACE UserDAOjdbc:122 - Method called to get history of user 1
+2018-02-25 14:31:44 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-25 14:31:46 TRACE UserDAOjdbc:125 - Connection Successful.
+2018-02-25 14:32:47 TRACE UserDAOjdbc:151 - Method called to create new reimbursement.
+2018-02-25 14:32:47 TRACE UserDAOjdbc:152 - Attempting to connect to the database.
+2018-02-25 14:32:48 TRACE UserDAOjdbc:154 - Connection successful.
+2018-02-25 14:32:49 DEBUG UserDAOjdbc:168 - Query inserted 1 row(s) into the db.
+2018-02-25 14:32:49 TRACE UserDAOjdbc:122 - Method called to get history of user 1
+2018-02-25 14:32:49 TRACE UserDAOjdbc:123 - Attempting to connect to the database.
+2018-02-25 14:32:50 TRACE UserDAOjdbc:125 - Connection Successful.
+2018-02-25 14:53:17 TRACE UserDAOjdbc:183 - Method called to view All History.
+2018-02-25 14:53:17 TRACE UserDAOjdbc:184 - Attempting to connect to database.
+2018-02-25 14:53:19 TRACE UserDAOjdbc:186 - Connection Successful.
+2018-02-25 14:57:53 TRACE UserDAOjdbc:233 - Method called to view All History.
+2018-02-25 14:57:53 TRACE UserDAOjdbc:234 - Attempting to connect to database.
+2018-02-25 14:57:55 TRACE UserDAOjdbc:236 - Connection Successful.
+2018-02-25 14:58:11 TRACE UserDAOjdbc:233 - Method called to view All History.
+2018-02-25 14:58:11 TRACE UserDAOjdbc:234 - Attempting to connect to database.
+2018-02-25 14:58:13 TRACE UserDAOjdbc:236 - Connection Successful.
+2018-02-25 14:58:51 TRACE UserDAOjdbc:233 - Method called to view All History.
+2018-02-25 14:58:51 TRACE UserDAOjdbc:234 - Attempting to connect to database.
+2018-02-25 14:58:57 TRACE UserDAOjdbc:236 - Connection Successful.
+2018-02-25 19:22:56 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-25 19:22:56 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-25 19:22:57 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-25 19:22:58 TRACE UserDAOjdbc:35 - Statement Prepared
+2018-02-25 19:22:58 WARN  UserDAOjdbc:45 - Failed to insert new user.
+2018-02-25 19:23:25 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-25 19:23:25 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-25 19:23:26 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-25 19:23:26 TRACE UserDAOjdbc:35 - Statement Prepared
+2018-02-25 19:23:26 DEBUG UserDAOjdbc:38 - Query inserted 1 row(s) into the db.
+2018-02-25 19:33:19 TRACE UserDAOjdbc:98 - Method called to get User with username ben
+2018-02-25 19:33:19 TRACE UserDAOjdbc:99 - Attempting to connect to database.
+2018-02-25 19:33:19 TRACE UserDAOjdbc:101 - Connection successful.
+2018-02-27 21:27:56 TRACE UserDAOjdbc:22 - Method called to register new employee.
+2018-02-27 21:27:56 TRACE UserDAOjdbc:23 - Attempting to connect to the database.
+2018-02-27 21:27:57 TRACE UserDAOjdbc:25 - Connection successful.
+2018-02-27 21:27:57 TRACE UserDAOjdbc:35 - Statement Prepared
+2018-02-27 21:27:58 DEBUG UserDAOjdbc:38 - Query inserted 1 row(s) into the db.
+2018-02-28 23:09:27 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:09:27 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:09:28 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:09:29 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:09:58 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:09:58 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:09:59 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:10:00 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:10:09 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:10:09 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:10:10 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:10:10 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:10:17 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:10:17 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:10:19 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:10:19 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:33:32 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:33:32 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:33:33 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:33:33 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:33:40 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:33:40 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:33:41 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:33:41 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:33:48 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:33:48 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:33:49 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:33:49 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.
+2018-02-28 23:34:01 TRACE UserDAOjdbc:150 - Method called to create new reimbursement.
+2018-02-28 23:34:01 TRACE UserDAOjdbc:151 - Attempting to connect to the database.
+2018-02-28 23:34:03 TRACE UserDAOjdbc:153 - Connection successful.
+2018-02-28 23:34:03 DEBUG UserDAOjdbc:167 - Query inserted 1 row(s) into the db.

@@ -15,6 +15,8 @@ import { ManagerHomeComponent } from './components/manager-home/manager-home.com
 import { UserService } from './services/user.service';
 import { StatusPipe } from './pipes/status.pipe';
 import { TypePipe } from './pipes/type.pipe';
+import { EmpLoggedGuard } from './guards/emp-logged.guard';
+import { ManLoggedGuard } from './guards/man-logged.guard';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { TypePipe } from './pipes/type.pipe';
    ],
   providers: [
     CookieService,
-    UserService
+    UserService,
+    EmpLoggedGuard,
+    ManLoggedGuard,
   ],
   bootstrap: [AppComponent]
 })

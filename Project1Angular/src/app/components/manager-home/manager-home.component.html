@@ -1,5 +1,7 @@
 <app-nav></app-nav>
 
+<h2 id="rectangle">Welcome to the Financial Manager Portal: {{activeUser.user_first_name}} {{activeUser.user_last_name}}</h2>
+
 <!-- REGISTER NEW USER -->
 <h1>Register a new user:</h1>
 <form (ngSubmit)="newUser(user)">
@@ -64,8 +66,8 @@
         <td>{{reimb.description}}</td>
         <td>{{reimb.authorId}}</td>
         <td>{{reimb.resolverId}}</td>
-        <td>{{reimb.statusId}}</td>
-        <td>{{reimb.typeId}}</td>
+        <td>{{reimb.statusId | statusPipe}}</td>
+        <td>{{reimb.typeId | typePipe}}</td>
       </tr>
     </tbody>
   </table>
@@ -106,8 +108,8 @@
         <td>{{reimb.description}}</td>
         <td>{{reimb.authorId}}</td>
         <td>{{reimb.resolverId}}</td>
-        <td>{{reimb.statusId}}</td>
-        <td>{{reimb.typeId}}</td>
+        <td>{{reimb.statusId | statusPipe}}</td>
+        <td>{{reimb.typeId | typePipe}}</td>
       </tr>
     </tbody>
   </table>
@@ -143,8 +145,8 @@
         <td>{{reimb.description}}</td>
         <td>{{reimb.authorId}}</td>
         <td>{{reimb.resolverId}}</td>
-        <td>{{reimb.statusId}}</td>
-        <td>{{reimb.typeId}}</td>
+        <td>{{reimb.statusId | statusPipe}}</td>
+        <td>{{reimb.typeId | typePipe}}</td>
       </tr>
     </tbody>
   </table>
